@@ -1,6 +1,6 @@
 {
   "name": "envgen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI that generates .env, .local.env and .env.example files per service and updates your .gitignore.",
   "type": "module",
   "bin": {
@@ -11,7 +11,7 @@
   ],
   "main": "./dist/index.js",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.12"
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm --clean",
@@ -45,5 +45,8 @@
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.0.4"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.8.1"
   }
 }
