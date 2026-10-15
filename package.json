@@ -1,0 +1,49 @@
+{
+  "name": "envgen",
+  "version": "0.1.0",
+  "description": "CLI that generates .env, .local.env and .env.example files per service and updates your .gitignore.",
+  "type": "module",
+  "bin": {
+    "envgen": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --clean",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run typecheck && npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoshisaiumia/envgen.git"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment",
+    "cli",
+    "generator",
+    "gitignore",
+    "env-example"
+  ],
+  "author": "Hanna Seraphim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoshisaiumia/envgen/issues"
+  },
+  "homepage": "https://github.com/hoshisaiumia/envgen#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsup": "^9.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}
