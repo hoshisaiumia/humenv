@@ -2,6 +2,10 @@
 
 CLI that generates `.env`, `.local.env` and `.env.example` files per service and keeps your `.gitignore` up to date.
 
+![NPM Version](https://img.shields.io/npm/v/humenv?style=for-the-badge&labelColor=humenv)
+![NPM (prod) Dependency Version](https://img.shields.io/npm/dependency-version/humenv/%40clack%2Fprompts?style=for-the-badge)
+[![Socket Badge](https://badge.socket.dev/npm/package/humenv/0.2.0)](https://badge.socket.dev/npm/package/humenv/0.2.0)
+
 ## Usage
 
 ```bash
