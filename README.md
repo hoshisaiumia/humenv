@@ -1,11 +1,11 @@
-# envgen
+# humenv
 
 CLI that generates `.env`, `.local.env` and `.env.example` files per service and keeps your `.gitignore` up to date.
 
 ## Usage
 
 ```bash
-npx envgen
+npx humenv
 ```
 
 ```
@@ -37,14 +37,14 @@ If a file already exists, only the missing variables are appended to the end. Ex
 | `-h, --help`       | Show help                                                                              |
 
 ```bash
-envgen --dir . --avoid
+humenv --dir . --avoid
 ```
 
 ## Editing existing envs
 
 ```bash
-envgen --edit
-envgen --edit --dir config
+humenv --edit
+humenv --edit --dir config
 ```
 
 1. Pick an env from the list (`↑`/`↓` and `Enter`).

@@ -16,7 +16,7 @@ import {
   type FileResult,
 } from "./lib.js";
 
-const HELP = `Usage: envgen [options]
+const HELP = `Usage: humenv [options]
 
 Options:
   -d, --dir <path>   Directory for the env files (default: env)
@@ -114,7 +114,7 @@ async function editMode(dir: string): Promise<void> {
     return;
   }
 
-  p.intro("envgen");
+  p.intro("humenv");
 
   const name = await p.select({
     message: "Which env do you want to edit?",

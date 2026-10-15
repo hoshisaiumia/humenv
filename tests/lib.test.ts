@@ -19,7 +19,7 @@ import {
 let dir: string;
 
 beforeEach(async () => {
-  dir = await mkdtemp(join(tmpdir(), "envgen-"));
+  dir = await mkdtemp(join(tmpdir(), "humenv-"));
 });
 
 afterEach(async () => {

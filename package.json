@@ -1,10 +1,10 @@
 {
-  "name": "envgen",
+  "name": "humenv",
   "version": "0.2.0",
   "description": "CLI that generates .env, .local.env and .env.example files per service and updates your .gitignore.",
   "type": "module",
   "bin": {
-    "envgen": "./dist/index.js"
+    "humenv": "./dist/index.js"
   },
   "files": [
     "dist"
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoshisaiumia/envgen.git"
+    "url": "git+https://github.com/hoshisaiumia/humenv.git"
   },
   "keywords": [
     "env",
@@ -36,9 +36,9 @@
   "author": "Hanna Seraphim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hoshisaiumia/envgen/issues"
+    "url": "https://github.com/hoshisaiumia/humenv/issues"
   },
-  "homepage": "https://github.com/hoshisaiumia/envgen#readme",
+  "homepage": "https://github.com/hoshisaiumia/humenv#readme",
   "devDependencies": {
     "@types/node": "^26.6.5",
     "tsup": "^9.0.0",

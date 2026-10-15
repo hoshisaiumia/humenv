@@ -48,6 +48,6 @@ First functional release.
   Names are converted to uppercase.
 - Unit tests with Vitest.
 
-[Unreleased]: https://github.com/hoshisaiumia/envgen/compare/v0.2.0...HEAD
-[0.2.0]: https://github.com/hoshisaiumia/envgen/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/hoshisaiumia/envgen/releases/tag/v0.1.0
+[Unreleased]: https://github.com/hoshisaiumia/humenv/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/hoshisaiumia/humenv/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/hoshisaiumia/humenv/releases/tag/v0.1.0
